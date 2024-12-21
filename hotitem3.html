@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Store</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="hotitem1.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+	<div class="container">
+        <header class="d-flex align-items-center py-3 px-4">
+            <a href="#" class="me-3">
+                <img src="images/logo.jpg" alt="Logo" class="img-fluid rounded-circle">
+            </a>
+            <h1 class="text-white mb-0">Book Store</h1>
+        </header>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Menu</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link active" href="index.html">Trang chủ</a></li>
+                        <li class="nav-item"><a class="nav-link" href="SachTrongNuoc.html">Sách trong nước</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Foreign books</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Liên hệ</a></li>
+                        <li class="nav-item"><a class="nav-link" href="loginView.html">Đăng nhập</a></li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-primary" type="submit">Tìm kiếm</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+        <section>
+        	<div class="card h-100" onclick="handleCardClick('Nexus')">
+                <img src="images/hot_item_3.png" class="card-img-top" alt="Hot Item 3">
+                    <div class="card-body">
+                            <h5 class="card-title"><b>Nexus - Lược sử của những mạng lưới thông tin từ thời đại đồ đá đến trí tuệ nhân tạo</b></h5>
+                            <p class="card-text">Yuval Noah Harari trở lại với cuốn sách mới đầy thú vị về cuộc hành trình của con người vào Kỷ nguyên thông tin, và những lựa chọn cấp bách mà chúng ta phải đưa ra để tồn tại - và phát triển.
+                            Đây là câu chuyện về cách những mạng lưới thông tin đã kiến tạo và phá hủy thế giới, từ tác giả cuốn sách "Sapiens: Lược sử loài người".
+                            Trong 100.000 năm qua, loài Sapiens đã tích lũy được sức mạnh to lớn. Song bất chấp mọi khám phá, phát minh và chinh phục, giờ đây chúng ta thấy mình đang ở trong một cuộc khủng hoảng hiện sinh. Thế giới đang trên bờ vực sụp đổ sinh thái. Căng thẳng chính trị đang gia tăng. Thông tin sai lệch tràn lan. Và chúng ta đang bước vào kỷ nguyên của AI – một mạng lưới thông tin hoàn toàn mới.
+
+                            <br>“Nexus” nhìn lịch sử loài người qua lăng kính dài để xem xét dòng chảy thông tin đã đưa chúng ta đến ngày nay như thế nào. Từ thời Đồ đá qua quá trình điển hóa Kinh Thánh, rồi phát minh ra in ấn, sự trỗi dậy của phương tiện truyền thông đại chúng và sự nổi lên gần đây của chủ nghĩa dân túy, Yuval Noah Harari đã xem xét mối quan hệ phức tạp giữa thông tin và sự thật, quan liêu và huyền thoại, trí tuệ và quyền lực. Ông khám phá cách các hệ thống như Đế chế La Mã, Giáo hội Công giáo sử dụng thông tin để đạt được mục tiêu, dù tốt hay xấu. Ông cũng đề cập đến những lựa chọn cấp bách mà chúng ta phải đối mặt khi AI xuất hiện.
+
+                            <br>Thông tin không phải là nguyên liệu thô của sự thật, nó cũng không chỉ là một thứ vũ khí. “Nexus” tìm hiểu điểm trung gian giữa hai thái cực này, từ đó tái tìm hiểu bản chất chung của nhân loại.
+
+                            <br>Yuval Noah Harari chia sẻ:
+
+                            <br>“Chúng ta đang sống trong cuộc cách mạng thông tin sâu sắc nhất trong lịch sử loài người, nhưng chúng ta không thể hiểu được nó, trừ khi chúng ta hiểu những gì đã xảy ra trước đó. Rốt cuộc, lịch sử không phải là nghiên cứu về quá khứ - mà là nghiên cứu về sự thay đổi. Nó dạy chúng ta những gì vẫn giữ nguyên, những gì thay đổi và mọi thứ thay đổi như thế nào. Tuy nhiên, lịch sử không phải là tất định luận, và NEXUS không cho rằng hiểu được quá khứ cho phép chúng ta dự đoán được tương lai. Mục tiêu của tôi là chỉ ra rằng: bằng cách đưa ra những lựa chọn sáng suốt, chúng ta vẫn có thể ngăn chặn những kết quả tồi tệ nhất. Bởi vì nếu chúng ta không thể thay đổi tương lai, thì tại sao lại lãng phí thời gian thảo luận về nó?”.
+
+                            <br>BỐ CỤC GỒM 3 PHẦN CHÍNH:
+
+                            <br>- PHẦN I. NHỮNG MẠNG LƯỚI CỦA CON NGƯỜI
+
+                            <br>- PHẦN II. MẠNG LƯỚI VÔ CƠ
+
+                            <br>- PHẦN III. NỀN CHÍNH TRỊ MÁY TÍNH
+
+                            <br>Trong phần 1 cuốn sách, tác giả sẽ đưa ra định nghĩa về thông tin, trình bày về các hình thức tồn tại của thông tin, cách con người sử dụng thông tin, phân tích kĩ về hai mô hình thể chế đã sử dụng thông tin như thế nào, mô hình nền dân chủ và mô hình nền độc tài.
+
+                            <br>Chuyển sang phần 2 và phần 3, tác giả trình bày về một phương tiện thông tin mới là máy tính và những công nghệ liên quan như thuật toán mạng xã hội, camera giám sát. Nền dân chủ và nền độc tài sẽ có cách thức riêng để khai thác những phương tiện này, thậm chí dưới hình thức phát tán tin giả. Tác giả bày tỏ e ngại khi những công ty công nghệ nắm toàn quyền lưu trữ và chi phối thông tin (như về sở thích, sức khỏe...), giờ đây được xem là loại tài sản mới cực kỳ có giá trị.
+
+                            <br>Cùng với đó là sự phát triển của AI đã tiến bộ vượt xa tưởng tượng. AI có thể suy nghĩ chủ động, tự tạo ra thông tin, ý tưởng mới, tác động đến toàn xã hội. Thông qua nhiều ví dụ, tác giả muốn nói AI là thế lực vô cùng hùng mạnh mà con người chưa hiểu tường tận và cũng chưa có cơ chế kiểm soát tốt đối với chủ của AI như Google.
+
+                            <br><b>Ý NGHĨA BÌA SÁCH:</b>
+
+                            <br>Tại sao lại là chim bồ câu? Chim bồ câu đại diện cho hoà bình, nhưng trong sách có những câu chuyện sử dụng bồ câu như một công cụ quân sự để đưa thư hay câu chuyện về Noah trong trận hồng thuỷ trong Kinh Thánh, bồ câu báo tin về. Và chúng ta, có lẽ, cũng đang bị nhấn chìm trong một mớ thông tin mà nó đang có nguy cơ phá huỷ thế giới. Liệu sẽ có một con chim bồ câu báo tin cho chúng ta về trận lụt này sẽ qua và chúng ta có thể ra ngoài?
+                            </p>
+
+                            <h5 class="card-title"><b>Thông tin chi tiết</b></h5>
+                            <p>Tác giả: Yuval Noah Harari<br>
+                                Người dịch: Bùi Thị Hồng Ninh, Nguyễn Quốc Tấn Trung<br>
+                                Năm XB: 2024<br>
+                                Số trang: 552
+                            </p>
+                    </div>
+            </div>
+        </section>
+
+        <footer class="text-center py-4 mt-5">
+            <p>© 2024 Book Store. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script>
+			document.querySelector('.navbar-brand').addEventListener('click', function () {
+            alert('Chào mừng bạn đến với Book Store!');
+        });
+    </script>    
+</body>
