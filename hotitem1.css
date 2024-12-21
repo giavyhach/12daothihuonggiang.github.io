@@ -1,0 +1,37 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	line-height: 1.6;
+}
+
+header {
+    background: linear-gradient(90deg, #007bff, #6610f2);
+    color: white;
+}
+
+header img {
+    max-height: 60px;
+}
+
+nav {
+    background-color: #f8f9fa;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.carousel img {
+    object-fit: cover;
+    height: 400px;
+}
+
+.card {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+}
+
+footer p {
+    margin: 0;
+}
